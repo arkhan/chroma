@@ -7,7 +7,7 @@ import (
 	"github.com/alecthomas/chroma/v2"
 )
 
-//go:embed embedded
+//go:embed embedded/*.xml
 var embedded embed.FS
 
 // GlobalLexerRegistry is the global LexerRegistry of Lexers.
